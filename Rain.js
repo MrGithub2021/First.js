@@ -22,7 +22,7 @@ var Winston = function(Winx,Winy){
     var img=getImage("creatures/Winston");
     image(img,Winston.x,Winston.y);
 };
-background(184, 96, 96);
+background(0, 204, 255);
 var First = new Rainbow(200,200,300);
 drawRainbow(First);
 var Second = new Rainbow(198,300,390);
