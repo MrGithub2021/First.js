@@ -19,7 +19,7 @@ var Rainbow = function(x,y,radius){
     this.radius=radius;
 };
 var Winston = function(Winx,Winy){
-    var img=getImage("creatures/Winston");
+    var img=getImage("https://static.wikia.nocookie.net/khanacademy/images/5/55/Winston2.png/revision/latest/zoom-crop/width/360/height/360?cb=20200516210551");
     image(img,Winston.x,Winston.y);
 };
 background(0, 204, 255);
@@ -34,3 +34,4 @@ drawRainbow(F);
 var Five = new Rainbow(200,51,137);
 drawRainbow(Five);
 Winston(107,-87);
+text("Image from Khan Academy Wiki", 200, 175);
